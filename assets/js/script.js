@@ -81,6 +81,7 @@ aElements.forEach((a) => {
     a.addEventListener("click", function () {
         viewDoc.setAttribute("class", "view-doc active");
         viewDocLink.href = "#!";
+        viewDocLink.target = "";
         var spanElement = a.querySelector("div > span");
         var name = spanElement.innerHTML;
         console.log("name = " + name);
