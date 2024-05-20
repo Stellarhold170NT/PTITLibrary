@@ -867,4 +867,12 @@ table td span + span {
     .view-document {
         width: calc(100% - 64px);
     }
+
+    .statictic span.number {
+        font-size: 2rem;
+    }
+
+    .cta .quote {
+        font-size: 2.4rem;
+    }
 }
