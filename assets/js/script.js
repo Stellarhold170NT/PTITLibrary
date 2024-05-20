@@ -79,11 +79,18 @@ var viewDocLink = document.querySelector(".view-doc a");
 var aElements = document.querySelectorAll("td a");
 aElements.forEach((a) => {
     a.addEventListener("click", function () {
-        viewDoc.setAttribute("class", "view-doc active");
         viewDocLink.href = "#!";
         viewDocLink.target = "";
+        viewDoc.setAttribute("class", "view-doc active");
         var spanElement = a.querySelector("div > span");
         var name = spanElement.innerHTML;
+
+        var spanElement2 = a.querySelector("div span:last-child");
+
+        var viewTitle = document.querySelector(".view-title");
+        viewTitle.innerHTML = name;
+        var viewNumber = document.querySelector(".view-number");
+        viewNumber.innerHTML = spanElement2.innerHTML;
         console.log("name = " + name);
         $.ajax({
             url: "data.json",
@@ -98,6 +105,7 @@ aElements.forEach((a) => {
                 });
 
                 dataObject.CongNgheThongTin.forEach((monhoc) => {
+                    console.log(monhoc.name);
                     if (name === monhoc.name) {
                         console.log(monhoc.link);
                         viewDocLink.href = monhoc.link;
