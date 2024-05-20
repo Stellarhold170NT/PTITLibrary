@@ -123,6 +123,22 @@ aElements.forEach((a) => {
                         viewDocLink.target = "_blank";
                     }
                 });
+
+                var update = document.querySelector(
+                    ".view-available-document > span"
+                );
+
+                var list = document.querySelector(
+                    ".view-available-document .list"
+                );
+
+                if (viewDocLink.target == "") {
+                    update.innerHTML = "Hiện chưa có tài liệu";
+                    list.style.visibility = "hidden";
+                } else {
+                    update.innerHTML = "Tài liệu tổng hợp được";
+                    list.style.visibility = "visible";
+                }
             },
         });
     });
