@@ -1,3 +1,14 @@
+$.ajax({
+    url: "data.json",
+    dataType: "json",
+    success: function (dataObject) {
+        var cnt =
+            dataObject.MonHocChung.length + dataObject.CongNgheThongTin.length;
+        var statistic = document.querySelector(".statictic span.number");
+        statistic.innerHTML = cnt + "";
+    },
+});
+
 const initSlider = () => {
     const imageList = document.querySelector(".introduce .intro-list");
     const slideButtons = document.querySelectorAll(".introduce .slide-btn");
