@@ -1,5 +1,5 @@
 $.ajax({
-    url: "data.json",
+    url: "./assets/data/data.json",
     dataType: "json",
     success: function (dataObject) {
         var cnt =

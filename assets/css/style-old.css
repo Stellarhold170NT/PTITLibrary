@@ -25,8 +25,8 @@ h2 {
 
 h3 {
     font-size: 2.4rem;
-    /* padding-top: 48px;
-    padding-bottom: 16px;*/
+    padding-top: 48px;
+    padding-bottom: 16px;
 }
 
 a {
@@ -45,7 +45,7 @@ nav .body {
 nav ul {
     display: flex;
     margin-left: 60px;
-    gap: 3em;
+    gap: 1.2em;
 }
 
 nav ul li {
@@ -65,116 +65,8 @@ nav a {
 nav a.focus {
     color: var(--primary-color);
 }
-.language .tab {
-    display: none;
-}
 
-.language .username:hover + .tab,
-.tab:hover {
-    display: block;
-}
-
-.language .notification-container {
-    display: none;
-}
-
-.language .notification:hover + .notification-container,
-.notification-container:hover {
-    display: block;
-}
-
-nav .notification {
-    position: relative; /* Đặt vị trí tương đối cho phần tử */
-    padding: 24px 0;
-    display: inline-block; /* Đảm bảo nó hiển thị như một khối để chứa ::after */
-}
-
-nav .notification::after {
-    content: ""; /* Tạo nội dung cho pseudo-element */
-    display: block; /* Hiển thị dưới dạng khối */
-    position: absolute; /* Định vị tuyệt đối */
-    top: 22px; /* Đặt ở trên cùng */
-    right: -2px; /* Đặt ở góc phải */
-    width: 8px; /* Đường kính của dấu chấm */
-    height: 8px; /* Đường kính của dấu chấm */
-    background-color: var(--primary-color); /* Màu sắc dấu chấm */
-    border-radius: 50%; /* Tạo hình tròn */
-}
-
-.notification-container {
-    position: absolute;
-    top: 52px;
-    right: 0;
-    width: 400px;
-    max-height: 480px;
-    background-color: white;
-    box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
-    border-radius: 6px;
-    border-top: 6px #d9d9d9 solid;
-    z-index: 100;
-
-    /* border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px; */
-    overflow-y: auto;
-}
-
-.notification-container::-webkit-scrollbar {
-    display: none;
-}
-
-.notification-container ul {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-    margin: 0;
-}
-
-.notification-container ul li {
-    padding: 12px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    /* padding: 12px 0; */
-    border-top: 1px #f2f2f2 solid;
-    background-color: white;
-    gap: 12px;
-    transition: background-color 0.2s ease;
-    /* cursor: pointer; */
-}
-
-.notification-container ul li:hover {
-    background-color: #f2f2f2;
-}
-.notification-container ul li:not(:first-child) {
-    align-items: flex-start;
-}
-
-.notification-container ul li div {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.notification-container .noti-header {
-    font-weight: 700;
-}
-
-.notification-container .noti-content {
-    font-size: 1.4rem;
-    opacity: 0.6;
-    line-height: 1.35;
-}
-
-.notification-container img {
-    width: 40px;
-}
-
-.notification-container ul li .noti-header {
-    font-size: 1.6rem;
-}
-
-/* nav a:after {
+nav a:after {
     content: "";
     width: 18px;
     height: 18px;
@@ -184,7 +76,7 @@ nav .notification::after {
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.5;
-} */
+}
 
 .ulti .breadcrumb {
     width: 100%;
@@ -209,15 +101,6 @@ nav .notification::after {
 .ulti a {
     font-size: 1.6rem;
     white-space: nowrap;
-}
-
-.username {
-    font-weight: 400;
-    transition: color 0.2s ease;
-}
-
-.username:hover {
-    color: var(--primary-color);
 }
 
 .header .body {
@@ -336,7 +219,77 @@ nav .notification::after {
     color: var(--primary-color);
 }
 
-/* Table CSS */
+table {
+    display: block;
+    width: 100%;
+    margin-bottom: 96px;
+    overflow-x: auto;
+}
+
+table tr {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px #ccc solid;
+}
+
+table td {
+    width: 144px;
+    height: 76px;
+    border-radius: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+table td:not(:first-child) {
+    border-left: 4px #ccc solid;
+    background: rgba(35, 35, 35, 0.1);
+}
+
+table td:first-child {
+    border-left: 4px #ffc5c7 solid;
+    background: var(--primary-color);
+}
+
+table td:first-child span {
+    color: #fff1f2;
+}
+
+table td:not(:first-child):hover {
+    background: rgba(204, 204, 204, 0.6);
+}
+
+/* table td.mandatory {
+    opacity: 0.6;
+}
+
+table td.compulsory {
+    opacity: 0.65;
+}
+
+table td.base {
+    opacity: 0.7;
+}
+
+table td.specialized {
+    opacity: 1;
+} */
+
+table td span {
+    display: block;
+    font-size: 1.6rem;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+}
+
+table td span + span {
+    font-weight: 400;
+    opacity: 0.87;
+}
 
 /**/
 
@@ -675,6 +628,7 @@ nav .notification::after {
     background: #e4e5e5ad;
     border-bottom: 3px #ccc solid;
 }
+
 .view-info {
     display: flex;
     flex-direction: column;
@@ -787,6 +741,100 @@ nav .notification::after {
 @media screen and (max-width: 1000px) {
     nav ul {
         gap: 1.5em;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    nav ul {
+        display: none;
+    }
+
+    .header .section1 {
+        width: 100%;
+    }
+
+    .header .section2 .search {
+        margin-top: 20px;
+    }
+
+    .header .section1 .title {
+        margin-bottom: 8px;
+    }
+
+    .header .section1 .title {
+        border-left: 2px var(--primary-color) solid;
+        border-right: none !important;
+    }
+
+    .header .section1 ul {
+        margin-left: 1em;
+    }
+
+    .header .section1 ul li {
+        display: inline-block;
+        font-size: 1.4rem;
+        margin-left: 4px;
+        margin-bottom: 8px;
+        padding: 4px 8px;
+        background: #eeeeee;
+        border-radius: 4px;
+        border-bottom: 1px #ccc solid;
+    }
+
+    .header .section1 ul li:hover {
+        background: #ed1c24;
+    }
+
+    .header .section1 ul li:hover a {
+        color: white;
+    }
+
+    .header .section2 {
+        border: none;
+        width: 100%;
+    }
+
+    .header .search-box {
+        width: calc(100% - 24px);
+    }
+
+    .footer .map .search-box {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .statictic {
+        gap: 4em;
+    }
+
+    .view-document {
+        justify-content: center;
+    }
+
+    .view-available-document,
+    .view-document {
+        width: calc(100% - 96px);
+    }
+
+    .view-document .view-imgbook {
+        display: none;
+    }
+
+    .view-available-document .list li {
+        margin-right: 0 !important;
+    }
+
+    .view-available-document .list {
+        justify-content: space-between;
+        gap: 8px;
+    }
+
+    .view-available-document .list span {
+        display: none;
+    }
+
+    .view-title {
+        font-size: 1.8rem;
     }
 }
 

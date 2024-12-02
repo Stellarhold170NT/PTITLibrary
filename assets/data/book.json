@@ -1,0 +1,165 @@
+[
+    {
+        "id": "VG/12846-12865",
+        "title": "(1) Anten thông minh: giải pháp cho thông tin di động",
+        "author": "Nguyễn Mạnh Hải",
+        "published_year": "2005",
+        "total_copies": "30",
+        "copies_available": "30",
+        "publisher": "Bưu điện"
+    },
+    {
+        "id": "VG/26460-26469",
+        "title": "(2) Anten thông minh: giải pháp cho thông tin di động",
+        "author": "Nguyễn Mạnh Hải",
+        "published_year": "2005",
+        "total_copies": "30",
+        "copies_available": "30",
+        "publisher": "Bưu điện"
+    },
+
+    {
+        "id": "VG/07456-7475",
+        "title": "Các dịch vụ mạng thế hệ sau",
+        "author": "None",
+        "published_year": "2005",
+        "total_copies": "20",
+        "copies_available": "20",
+        "publisher": "Bưu điện"
+    },
+    {
+        "id": "VG/26355-26369",
+        "title": "Các hệ thống tính toán và xử lý thông tin",
+        "author": "Hồ Khánh Lâm",
+        "published_year": "2001",
+        "total_copies": "20",
+        "copies_available": "20",
+        "publisher": "Bưu điện"
+    },
+    {
+        "id": "VG/12806-12820",
+        "title": "Các tổng đài đa dịch vụ trên mạng viễn thông",
+        "author": "Lê Ngọc Giao",
+        "published_year": "2004",
+        "total_copies": "20",
+        "copies_available": "20",
+        "publisher": "Bưu điện"
+    },
+    {
+        "id": "VG/07356-7375",
+        "title": "CdmaOne và Cdma2000 T. I",
+        "author": "Nguyễn Phạm Anh Dũng",
+        "published_year": "2003",
+        "total_copies": "20",
+        "copies_available": "20",
+        "publisher": "Bưu điện"
+    },
+    {
+        "id": "VG/07376-7395",
+        "title": "CdmaOne và Cdma2000 Τ. 2",
+        "author": "Nguyễn Phạm Anh Dũng",
+        "published_year": "2003",
+        "total_copies": "20",
+        "copies_available": "20",
+        "publisher": "Bưu điện"
+    },
+    {
+        "id": "VG/26285-26299",
+        "title": "Chuyển mạch số và hệ thống quản lý mạng",
+        "author": "Nguyễn Thanh Kỳ b.d",
+        "published_year": "2002",
+        "total_copies": "15",
+        "copies_available": "15",
+        "publisher": "Bưu điện"
+    },
+    {
+        "id": "VG/15081-15200",
+        "title": "Cơ sở kỹ thuật siêu cao tần",
+        "author": "Kiều Khắc Lâu",
+        "published_year": "1998",
+        "total_copies": "150",
+        "copies_available": "150",
+        "publisher": "Giáo dục"
+    },
+    {
+        "id": "VG/12171-12220",
+        "title": "Cơ sở kỹ thuật viễn thông",
+        "author": "Phạm Khắc Chư",
+        "published_year": "2001",
+        "total_copies": "150",
+        "copies_available": "150",
+        "publisher": "HVCNBCVT"
+    },
+    {
+        "id": "VG/07436-7455",
+        "title": "Công nghệ chuyển mạch nhân đa giao thức MPLS",
+        "author": "Phùng Văn Vận",
+        "published_year": "2003",
+        "total_copies": "20",
+        "copies_available": "20",
+        "publisher": "Bưu điện"
+    },
+    {
+        "id": "VG/25460-25482",
+        "title": "Công nghệ IP đối với thương mại di động",
+        "author": "None",
+        "published_year": "2003",
+        "total_copies": "None",
+        "copies_available": "None",
+        "publisher": "Bưu điện"
+    },
+    {
+        "id": "VG/11566-11580",
+        "title": "Công nghệ SDH",
+        "author": "Trần Hồng Quân",
+        "published_year": "2000",
+        "total_copies": "15",
+        "copies_available": "15",
+        "publisher": "Bưu điện"
+    },
+    {
+        "id": "VG/12381-12395",
+        "title": "Công nghệ truy nhập đa dịch vụ",
+        "author": "Phạm Đình Luận",
+        "published_year": "2001",
+        "total_copies": "15",
+        "copies_available": "15",
+        "publisher": "Bưu điện"
+    },
+    {
+        "id": "VG/07416-7435",
+        "title": "Công nghệ, giải pháp và triển khai mạng cung cấp dịch vụ ADSL",
+        "author": "None",
+        "published_year": "2004",
+        "total_copies": "20",
+        "copies_available": "20",
+        "publisher": "Bưu điện"
+    },
+    {
+        "id": "VG/00001-230",
+        "title": "(1) GT Cơ sở kỹ thuật chuyển mạch",
+        "author": "Hoàng Minh",
+        "published_year": "2009",
+        "total_copies": "280",
+        "copies_available": "280",
+        "publisher": "TT&TT"
+    },
+    {
+        "id": "VG/03131-3180",
+        "title": "(2) GT Cơ sở kỹ thuật chuyển mạch",
+        "author": "Hoàng Minh",
+        "published_year": "2009",
+        "total_copies": "280",
+        "copies_available": "280",
+        "publisher": "TT&TT"
+    },
+    {
+        "id": "VG/12011-12170",
+        "title": "GT Cơ sở kỹ thuật đo lường điện tử",
+        "author": "Vũ Quý Điểm",
+        "published_year": "2001",
+        "total_copies": "None",
+        "copies_available": "None",
+        "publisher": "KHKT"
+    }
+]
