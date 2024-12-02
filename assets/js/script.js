@@ -104,7 +104,7 @@ aElements.forEach((a) => {
         viewNumber.innerHTML = spanElement2.innerHTML;
         console.log("name = " + name);
         $.ajax({
-            url: "data.json",
+            url: "./assets/data/data.json",
             dataType: "json",
             success: function (dataObject) {
                 dataObject.MonHocChung.forEach((monhoc) => {
