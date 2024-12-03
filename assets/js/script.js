@@ -116,7 +116,7 @@ aElements.forEach((a) => {
                 });
 
                 dataObject.CongNgheThongTin.forEach((monhoc) => {
-                    console.log(monhoc.name);
+                    console.log(monhoc.name + " " + monhoc.link);
                     if (name === monhoc.name) {
                         console.log(monhoc.link);
                         viewDocLink.href = monhoc.link;
