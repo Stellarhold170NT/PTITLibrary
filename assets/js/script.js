@@ -117,7 +117,7 @@ aElements.forEach((a) => {
 
                 dataObject.CongNgheThongTin.forEach((monhoc) => {
                     console.log(monhoc.name + " " + monhoc.link);
-                    if (name === monhoc.name) {
+                    if (name.trim() === monhoc.name.trim()) {
                         console.log(monhoc.link);
                         viewDocLink.href = monhoc.link;
                         viewDocLink.target = "_blank";
